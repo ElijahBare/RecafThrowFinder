@@ -34,7 +34,14 @@
 		    <version>2.18.3</version>
 		    <scope>provided</scope> <!-- Do not bundle into fatJar -->
 		</dependency>
+		<dependency>
+			<groupId>org.openjfx</groupId>
+			<artifactId>javafx-controls</artifactId>
+			<version>11.0.2</version>
+		</dependency>
 	</dependencies>
+
+
 	<build>
 		<plugins>
 			<plugin>
